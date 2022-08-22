@@ -17,12 +17,14 @@ body #page {
 }
 body #page #login-page {
   display: flex;
-  width: 300px;
   flex-direction: column;
-  text-align: center;
+  justify-content: center;
   align-items: center;
-  background-color: #2b2b29;
+  width: 300px;
+  height: 400px;
+  text-align: center;
   color: #ffffff;
+  background-color: #2b2b29;
   border-radius: 11px;
 }
 body #page #login-page .foto-perfil {
@@ -31,7 +33,7 @@ body #page #login-page .foto-perfil {
   margin-top: 10%;
   border-radius: 100%;
 }
-body #page #login-page p {
+body #page #login-page h1 {
   margin: 5% 0;
   font-size: larger;
   font-weight: 100;
