@@ -1,0 +1,43 @@
+#login-page{
+  display: flex;
+
+  width: 300px;
+
+  flex-direction: column;
+  
+  text-align: center;
+  align-items: center;
+
+  background-color: #2b2b29;
+  color: #ffffff;
+
+  border-radius: 11px;
+
+  .foto-perfil{
+    width: 100px;
+    height: 100px;
+    margin-top: 10%;
+    border-radius: 100%;
+  }
+
+  p{
+    margin: 5% 0; 
+    font-size: larger;
+    font-weight: 100;
+  }
+
+  @import "./input";
+
+  div{
+    padding: 10% 0 ;
+    a{
+      text-decoration: none;
+      color: #ffffff;
+      font-weight: 300;
+    
+      &:hover{
+        text-decoration: underline;
+      }
+    }
+  }
+}
