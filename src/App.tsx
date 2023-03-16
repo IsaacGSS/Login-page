@@ -21,7 +21,7 @@ function App() {
         muted
         autoPlay
         loop
-        src='src/assets/rocketseatRSXP[descktop].mp4'
+        src='./rocketseatRSXP[descktop].mp4'
         className='w-full h-screen object-cover absolute top-0 z-0'
       ></video>
     </>
