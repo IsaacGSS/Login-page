@@ -1,6 +1,7 @@
 import fastify from 'fastify'
 import { creatUser } from './routes/creat-user'
 import fastifyBcrypt from 'fastify-bcrypt'
+import { login } from './routes/login'
 
 const app = fastify()
 
@@ -9,6 +10,7 @@ app.register(fastifyBcrypt, {
 })
 
 app.register(creatUser)
+app.register(login)
 
 app.get('/', () => {
   return 'hello'
